@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.androidlime.practiceapp.About"
+    tools:showIn="@layout/activity_about"
+    android:background="#ffd8e2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/josim"
+        android:fitsSystemWindows="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am Md.Josim Uddin student of BCSE (4th semester) at IUBAT\n Email: mdjosimuddin712@gmail.com\n Phone: 01759043419\nDate: 29 / 02 / 2016 \n\nThis is my first android Application"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="360dp"/>
+</RelativeLayout>

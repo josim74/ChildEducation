@@ -1,0 +1,8 @@
+<resources>>
+    <string name="app_name">App 2016</string>
+    <string name="myButton">OK Button</string>
+    <string name="input">Enter First Name, Last Name</string>
+    <string name="yourName">Your Name Please</string>
+    <!--<string name="myButton">OK Button</string>-->
+    <!--<string name="myButton">OK Button</string>-->
+</resources>

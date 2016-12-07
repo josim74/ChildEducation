@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.androidlime.practiceapp.MainActivity"
+    android:background="#26B5A3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Rutine"
+        android:textSize="30dp"
+        android:textColor="#DED513"
+        android:id="@+id/textViewID"
+        android:background="#00936e"
+        android:padding="15dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewID"
+        android:layout_below="@+id/textViewID"
+        android:layout_marginTop="5dp"
+        android:background="#13AADE"
+        android:paddingLeft="10dp"/>
+    <Button
+        android:id="@+id/btnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Developer"
+        android:textColor="#ffff6c"
+        android:gravity="center"
+        android:background="#00db6e"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/listViewID"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

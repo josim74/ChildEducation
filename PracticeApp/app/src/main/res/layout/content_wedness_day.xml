@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.androidlime.practiceapp.WednessDay"
+    android:background="#d8ffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WednesDay"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:background="#00936e"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's class schedule..."
+        android:textColor="#006f6f"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Time\t  -     Sub\t  -   Sec - Teacher\t- Room"
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#4b0000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09:35am  MAT247   D       AM        #606\n\n10:40am\t ENG250\t   H\t       JF       #611\n\n11:45am\t CHM117\t  H      MBY\t    #403\n\n01:10pm\t CSC231\t    J        KZ\t     #605"
+        android:textColor="#5c5c5c"
+        android:textSize="18sp"
+        android:layout_marginTop="210dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

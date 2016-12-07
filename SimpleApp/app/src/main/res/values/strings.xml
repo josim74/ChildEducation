@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">পুি্গেরি ্েিদগরে ি</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Button_Text">OK</string>
+    <string name="input_hint">Your Name</string>
+    <string name="show_text">Please write your name</string>
+    <string name="title_activity_last">LastActivity</string>
+</resources>

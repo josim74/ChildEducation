@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practice App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_satar_day">SatarDay</string>
+    <string name="title_activity_tues_day">TuesDay</string>
+    <string name="title_activity_wedness_day">WednessDay</string>
+    <string name="title_activity_thus_day">ThusDay</string>
+    <string name="title_activity_mon_day">MonDay</string>
+    <string name="title_activity_otheres">otheres</string>
+    <string name="title_activity_about">About</string>
+</resources>

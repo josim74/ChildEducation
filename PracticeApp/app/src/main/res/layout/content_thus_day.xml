@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.androidlime.practiceapp.ThusDay"
+    android:background="#d8ffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ThursDay"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:background="#00936e"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's class schedule..."
+        android:textColor="#006f6f"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Time\t  -     Sub\t  -   Sec - Teacher\t- Room"
+        android:layout_marginTop="175dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#4b0000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11:45am\t CHM118\t H      MBY\t   CHlab\n\n01:10pm\t CSC231\t    J        KZ\t      #504"
+        android:textColor="#5c5c5c"
+        android:textSize="18sp"
+        android:layout_marginTop="210dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
